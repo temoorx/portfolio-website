@@ -15,16 +15,16 @@ class ConnectedBloc extends Bloc<ConnectedEvent, ConnectedState> {
     on<ConnectedEvent>((event, emit) => emit(ConnectedSucessState()));
     on<OnNotConnectedEvent>((event, emit) => emit(ConnectedFailureState()));
 
-    subscription = Connectivity()
-        .onConnectivityChanged
-        .listen((ConnectivityResult result) {
-      if (result == ConnectivityResult.mobile ||
-          result == ConnectivityResult.wifi) {
-        add(OnConnectedEvent());
-      } else {
-        add(OnNotConnectedEvent());
-      }
-    });
+    // subscription = Connectivity()
+    //     .onConnectivityChanged
+    //     .listen((ConnectivityResult result) {
+    //   if (result == ConnectivityResult.mobile ||
+    //       result == ConnectivityResult.wifi) {
+    //     add(OnConnectedEvent());
+    //   } else {
+    //     add(OnNotConnectedEvent());
+    //   }
+    // });
   }
   @override
   Future<void> close() {
