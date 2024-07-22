@@ -20,15 +20,15 @@ List<ContactUtils> contactUtils = [
   // ContactUtils(
   //     url: youtube,
   //     icon: "https://img.icons8.com/ios-filled/50/000000/youtube-play.png"),
-  // ContactUtils(
-  //     url: whatsapp,
-  //     icon: "https://img.icons8.com/material-outlined/48/000000/whatsapp.png"),
+  ContactUtils(
+      url: whatsapp,
+      icon: "https://img.icons8.com/material-outlined/48/000000/whatsapp.png"),
   // ContactUtils(
   //     url: twitter,
   //     icon: "https://img.icons8.com/fluency/48/000000/twitter.png"),
-  // ContactUtils(
-  //     url: linkedin,
-  //     icon: "https://img.icons8.com/ios-filled/50/000000/linkedin.png"),
+  ContactUtils(
+      url: linkedin,
+      icon: "https://img.icons8.com/ios-filled/50/000000/linkedin.png"),
   // ContactUtils(
   //     url: upwork,
   //     icon: "https://img.icons8.com/ios-filled/50/000000/upwork.png"),
