@@ -25,7 +25,6 @@ class Footer extends StatelessWidget {
                 style: TextStyle(fontWeight: FontWeight.bold),
               ),
             ),
-            const Text(" © 2022"),
           ],
         ),
       ),

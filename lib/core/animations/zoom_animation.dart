@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:mysite/app/utils/img.dart';
 import 'package:mysite/app/widgets/custom_outline.dart';
 import 'package:mysite/core/theme/app_theme.dart';
 
@@ -86,11 +87,17 @@ class _ZoomAnimationsState extends State<ZoomAnimations>
                 1
               ]),
           child: Container(
-            decoration: BoxDecoration(
-              shape: BoxShape.circle,
-              color: Colors.black.withOpacity(0.8),
-            ),
-          ),
+              decoration: BoxDecoration(
+                shape: BoxShape.circle,
+                color: Colors.black.withOpacity(0.8),
+              ),
+              child: //image in circle
+                  ClipOval(
+                child: Image.asset(
+                  StaticImages.profile,
+                  fit: BoxFit.cover,
+                ),
+              )),
         ),
       ),
     );

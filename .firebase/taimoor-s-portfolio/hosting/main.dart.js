@@ -75369,7 +75369,7 @@ $S:0}
 A.I6.prototype={
 L(a){return B.MG}}
 A.I4.prototype={
-L(a){var s=null,r=A.ah(a),q=$.l2.T(),p=10*$.b3.T()/100,o=$.l2.T(),n=$.b3.T(),m=t.p,l=A.eA(A.a([A.bW("Hi there, Welcome to My Space  ",B.RN,s),new A.jf(A.Id("assets/gif/hi.gif",B.W,s,40,s,s),B.dk,B.cw,B.h,s)],m),B.eJ,B.T,B.bG),k=A.bs(s,0.5*$.b3.T()/100,s),j=A.bW("I'm Taimoor,",B.RO,s),i=A.eA(A.a([B.TP,A.amb($.azn(),!0,!0)],m),B.eJ,B.T,B.V),h=A.bs(s,1.5*$.b3.T()/100,s),g=$.b3.T(),f=A.qk(a,20),e=(r.ax.a===B.v?B.a2:B.a3).a
+L(a){var s=null,r=A.ah(a),q=$.l2.T(),p=10*$.b3.T()/100,o=$.l2.T(),n=$.b3.T(),m=t.p,l=A.eA(A.a([A.bW("Hi there, Welcome to My Space  ",B.RN,s),new A.jf(A.Id("assets/gif/hi.gif",B.W,s,40,s,s),B.dk,B.cw,B.h,s)],m),B.eJ,B.T,B.bG),k=A.bs(s,0.5*$.b3.T()/100,s),j=A.bW("I'm Taimoor,",B.RO,s),i=A.eA(A.a([B.TQ,A.amb($.azn(),!0,!0)],m),B.eJ,B.T,B.V),h=A.bs(s,1.5*$.b3.T()/100,s),g=$.b3.T(),f=A.qk(a,20),e=(r.ax.a===B.v?B.a2:B.a3).a
 return A.bs(new A.cg(new A.aO(p,0,p,0),A.eA(A.a([A.c2(s,A.fb(A.a([l,k,j,i,h,new A.cg(new A.aO(0,0,10*g/100,0),A.bW(u.p,A.cL(s,s,A.Y(153,e>>>16&255,e>>>8&255,e&255),s,s,s,s,s,s,s,s,f,s,s,B.y,s,s,!0,s,s,s,s,s,s,s,s),s),s),A.bs(s,3*$.b3.T()/100,s),new A.nJ("download cv",new A.a27(),s)],m),B.bw,B.T,B.bG),B.m,s,s,s,s,s,new A.aO(0,10*o/100,0,0),s,s,s,55*n/100),B.ys],m),B.a_,B.fk,B.V),s),80*q/100,s)}}
 A.a27.prototype={
 $0(){var s=window
@@ -75787,7 +75787,7 @@ return new A.ix(A.bW(p,A.cL(q,q,A.Y(153,r>>>16&255,r>>>8&255,r&255),q,q,q,q,q,q,
 A.HM.prototype={
 L(a){var s=null,r=t.w,q=A.bh(a,s,r).w.a.b
 r=A.bh(a,s,r).w
-return A.c2(s,A.nF(A.eA(A.a([B.TL,A.fY(!1,s,!0,B.TQ,s,!0,s,s,s,s,s,s,s,s,s,new A.a1l(),s,s,s,s),B.TM],t.p),B.a_,B.T,B.bG),s,s),B.m,s,s,s,s,q*0.07,new A.aO(0,q*0.05,0,0),s,s,s,r.a.a)}}
+return A.c2(s,A.nF(A.eA(A.a([B.TP,A.fY(!1,s,!0,B.TL,s,!0,s,s,s,s,s,s,s,s,s,new A.a1l(),s,s,s,s),B.TM],t.p),B.a_,B.T,B.bG),s,s),B.m,s,s,s,s,q*0.07,new A.aO(0,q*0.05,0,0),s,s,s,r.a.a)}}
 A.a1l.prototype={
 $0(){return A.k3(A.dI("https://github.com/temoorx",0,null))},
 $S:0}
@@ -85764,12 +85764,12 @@ B.Sz=new A.w(!0,B.n,null,"Roboto",B.L,null,null,null,null,null,null,null,null,nu
 B.TK=new A.ea(B.Tg,B.QQ,B.RC,B.So,B.SB,B.Qn,B.Rg,B.Qr,B.Sc,B.SN,B.RI,B.SO,B.SY,B.Sp,B.Sz)
 B.SR=new A.w(!0,B.hR,null,null,null,null,18,B.ad,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
 B.yc=new A.hL("Get Started",null,B.SR,null,null)
-B.TL=new A.hL("Developed by ",null,null,null,null)
+B.TL=new A.hL("Flutter \ud83d\udc99",null,B.ya,null,null)
 B.TM=new A.hL(" \xa9 2022",null,null,null,null)
+B.TP=new A.hL(" Made with ",null,null,null,null)
 B.yd=new A.hL("\ud83d\udee0   ",null,null,null,null)
 B.RR=new A.w(!0,null,null,null,null,null,32,B.y,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null,null)
-B.TP=new A.hL("A ",null,B.RR,null,null)
-B.TQ=new A.hL(" Taimoor Bandara \ud83d\udc99",null,B.ya,null,null)
+B.TQ=new A.hL("A ",null,B.RR,null,null)
 B.WK=new A.ab3(0,"system")
 B.TR=new A.AQ(null)
 B.jV=new A.AS(0,"clamp")
