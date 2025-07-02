@@ -34,7 +34,7 @@ class HomeMobile extends StatelessWidget {
               Image.asset(StaticImage.hi, height: 10.sp),
             ],
           ),
-          // Space.y(1.w)!,
+          Space.y(2.w)!,
           Text(
             yourname,
             style: TextStyle(
@@ -42,7 +42,7 @@ class HomeMobile extends StatelessWidget {
               fontWeight: FontWeight.w600,
             ),
           ),
-          Space.y(1.w)!,
+          Space.y(2.w)!,
           Row(
             crossAxisAlignment: CrossAxisAlignment.end,
             children: [
@@ -61,7 +61,7 @@ class HomeMobile extends StatelessWidget {
             ],
           ),
 
-          Space.y(2.w)!,
+          Space.y(4.w)!,
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
             children: [

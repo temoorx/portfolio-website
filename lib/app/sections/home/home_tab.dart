@@ -53,7 +53,7 @@ class HomeTab extends StatelessWidget {
                     ),
                   ],
                 ),
-                Space.y(1.w)!,
+                Space.y(2.w)!,
                 Text(
                   yourname,
                   style: TextStyle(
@@ -82,7 +82,7 @@ class HomeTab extends StatelessWidget {
                     ],
                   ),
                 ),
-                Space.y(1.5.w)!,
+                Space.y(2.w)!,
                 Padding(
                   padding: EdgeInsets.only(right: 50.w),
                   child: Text(
@@ -93,7 +93,7 @@ class HomeTab extends StatelessWidget {
                         color: theme.textColor.withOpacity(0.6)),
                   ),
                 ),
-                Space.y(2.w)!,
+                Space.y(4.w)!,
                 ColorChageButton(
                   text: 'view resume',
                   onTap: () {
