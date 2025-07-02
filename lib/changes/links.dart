@@ -1,6 +1,6 @@
 // CV
 const String resume =
-    'https://drive.google.com/file/d/1bDNNrkQtNVJbXcdwMSx0crQQvAF_nMwV/view?usp=sharing';
+    'https://drive.google.com/drive/folders/1CLKrOQqs9oDjuQsRlJ_zw0zwsSSloXTj?usp=share_link';
 
 // Github Link
 const String gitHub = 'https://github.com/temoorx';
